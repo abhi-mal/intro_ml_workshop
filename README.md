@@ -23,7 +23,15 @@ Build the environment from the provided configuration file. This ensures package
 conda env create -f environment.yml -n intro_ml
 ```
 
-*(If you don't have Conda installed, you can download [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Miniforge/Mamba](https://github.com/conda-forge/miniforge) to get started.)*
+**Don't have Conda installed?**
+If you are on Linux, you can quickly install Miniconda by running:
+
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda3
+~/miniconda3/bin/conda init bash
+```
+*Note: After running the above commands, please quit your terminal and open a new one before continuing.*
 
 ### Option B: Fast Track (Shared Environment)
 
