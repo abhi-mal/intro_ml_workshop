@@ -1,0 +1,24 @@
+name: intro_ml
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn      
+  - pytorch-cuda=12.1 
+  - tqdm
+  - jupyterlab
+  - ipywidgets
+  - jupyter 
+  - notebook
+  - ipykernel
+  - pip:
+      - torch-geometric
